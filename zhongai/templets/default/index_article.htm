@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link href="{dede:global.cfg_templets_skin/}/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="/style/css/public.css" rel="stylesheet" type="text/css" />
+<link href="/style/css/expert.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/style/js/jquery-1.7.2.min.js"></script>
+<!----------ie6鼠标经过兼容-------------->
+<!--[if lte IE 6]>
+<style type="text/css">
+body { behavior:url("/style/images/img/csshover.htc"); }
+</style>
+<![endif]-->
+</head>
+
+<body>
+
+{dede:include filename="head.htm"/}
+
+
+<div id="main1">
+   <div class="main1-l">
+      <div class="main1-l1">
+         <dl>
+         <dd><img src="/style/images/main1-l1-pic1.jpg" alt="咨询在线专家" /></dd>
+         <dt>
+         <p>“上海玫瑰医疗美容医院坐落于东方魔都—上海。源自国外，兴于东方，玫瑰之美，东西合璧。”</p>
+         <h3>——全国连锁·上海总部</h3>
+         </dt>
+         </dl>
+      </div>
+	  <div id="main-float">
+      <div class="main1-l2">
+         <ul>
+{dede:channel type='son'} 
+<li><a id="main1-l2li" href="[field:typelink/]">[field:typename/]</a></li>
+{/dede:channel}
+
+         </ul>
+      </div>
+      <div class="cha-l-1">
+         <div class="cha-l-1t">在线预约</div>
+         <div class="cha-l-1c">
+            <dl class="cha-l-1c1">
+				<dd><a href="http://qiao.baidu.com/v3/?module=default&controller=im&action=index&ucid=7436029&type=n&siteid=4965898"></a></dd>
+				<dt><a href="http://qiao.baidu.com/v3/?module=default&controller=im&action=index&ucid=7436029&type=n&siteid=4965898">在线咨询</a></dt>
+            </dl>
+            <dl class="cha-l-1c2">
+				<dd><a href="http://qiao.baidu.com/v3/?module=default&controller=im&action=index&ucid=7436029&type=n&siteid=4965898"></a></dd>
+				<dt><a href="http://qiao.baidu.com/v3/?module=default&controller=im&action=index&ucid=7436029&type=n&siteid=4965898">咨询价格</a></dt>
+            </dl>
+            <dl class="cha-l-1c3">
+				<dd><a href="http://qiao.baidu.com/v3/?module=default&controller=im&action=index&ucid=7436029&type=n&siteid=4965898"></a></dd>
+				<dt><a href="http://qiao.baidu.com/v3/?module=default&controller=im&action=index&ucid=7436029&type=n&siteid=4965898">咨询专家</a></dt>
+            </dl>
+         </div>
+      </div>
+      <div class="cha-l-2">
+         <p><img src="/style/images/pf-cha-l-2-pic3.jpg" alt="24H免费咨询电话" /></p>
+         <p><img src="/style/images/pf-cha-l-2-pic4.jpg" alt="玫瑰节假日无休" /></p>
+      </div>
+      </div>
+   </div>
+   <div class="main1-r">
+      <div class="expert-list-banner">
+		<a href="http://qiao.baidu.com/v3/?module=default&controller=im&action=index&ucid=7436029&type=n&siteid=4965898"><img src="/style/images/expert-list-banner.jpg" alt="咨询在线专家" /></a></div>
+      <div class="expert-list-wz">
+          <h3 class="his-center1-t1">{dede:type}[field:typename/]{/dede:type}</h3>
+          <p><span>当前位置</span>{dede:field name='position'/}</p>
+      </div>
+      
+		<div class="brand1">
+        	{dede:field.content/}
+   		</div>
+   		
+      
+   </div>
+<div class="clear"></div>
+</div>
+
+{dede:include filename="footer.htm"/}
+
+
+<script type="text/javascript" src="/style/js/channel.js"></script>
+</body>
+</html>

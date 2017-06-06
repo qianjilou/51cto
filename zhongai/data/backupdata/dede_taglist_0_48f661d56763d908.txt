@@ -1,0 +1,1 @@
+INSERT INTO `dede_taglist` VALUES('10','1','0','33','美容整形医院');
