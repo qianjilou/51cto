@@ -34,3 +34,13 @@ traffic交易
 pruchase 购买
 invite 邀请
 queue 列队，传输
+project 项目
+wiki 百科
+setting 设置
+insights 领悟，洞悉
+
+graphs 曲线图
+license 许可证
+design 设计图案
+configuration 配置，布局，排列，构造
+overview 概述
