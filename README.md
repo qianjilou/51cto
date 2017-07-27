@@ -7,13 +7,12 @@
 ---
 ## A
 
----
+
 ## B
 
 branch  分支，部门  
 business  商务  
 
----
 ## C
 
 |CCC|CCC|
@@ -58,35 +57,32 @@ business  商务
 |invite | 邀请 | 
 |insights | 领悟，洞悉 | 
 
----
 ## J
 
----
 ## K
 
----
+## L
 
 |L系列|翻译|
 |----|-----|
 |license | 许可证  |
 
----
+## M
 
 |M系列|翻译|
 |----|-----|
 |makeplace | 交易市场，集市  |
 
----
 ## N
 
----
+## O
 
 |O系列|翻译|
 |----|-----|
 |origin | 起源，源点，根源  |
 |overview | 概述  |
 
----
+## P
 
 |P系列|翻译|
 |----|-----|
@@ -95,46 +91,46 @@ business  商务
 |project | 项目  |
 |profile | 仓库|
 
----
+## Q
 
 |P系列|翻译|
 |----|-----|
 |queue | 列队，传输 |  
 
----
 ## R
 
----
+## s
 
 setting  设置  
 sign in 登录;签到；签收  
 sign up 注册;签约;登记;  
 sign out 退出  
 
----
+## T
 
 trunk  主分支  
 traffic  交易  
 
----
 ## U
 
----
+
 ## V
 
----
+
+## W
+
 
 wiki  百科  
 
----
+
 ## X
 
----
+
 ## Y
 
----
+
 ## Z
 
----
+
 
 出处：千机楼  https://github.com/qianjilou/gitmanual.git
