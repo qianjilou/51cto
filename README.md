@@ -10,20 +10,24 @@
 
 ## B
 
-branch  分支，部门  
-business  商务  
+|B系列|翻译|
+|----|-----|
+|branch | 分支，部门 | 
+|business | 商务 | 
 
 ## C
 
-|code|编码，密码|
+|C系列|翻译|
 |----|-----|
+|code|编码，密码|
 |commit|提交，把...托付给 |
 |configuration|配置，布局，排列，构造|
 
 ## D
 
-|dashboard | 仪表盘 |
+|D系列|翻译|
 |----|-----|
+|dashboard | 仪表盘 |
 |design | 设计图案 | 
 
 ## E
