@@ -22,85 +22,79 @@ code 编码，密码
 commit 提交，把...托付给
 configuration 配置，布局，排列，构造
 ---
-D
+## D
 dashboard 仪表盘
 design 设计图案
 ---
-E
+## E
 explore 探索，研究
 
 ---
-F
+## F
 features 面貌，特征
 fork 分支
 ---
-G
+## G
 
 graphs 曲线图
 ---
-H
+## H
 
 ---
-I
+## I
 invite 邀请
 insights 领悟，洞悉
 ---
-J
+## J
 
 ---
-K
+## K
 
 ---
-L
+## L
 license 许可证
 ---
-M
+## M
 makeplace 交易市场，集市
 ---
-N
+## N
 
 ---
-O
+## O
 origin 起源，源点，根源
 overview 概述
 ---
-P
+## P
 pricing 定价
 pruchase 购买
 project 项目
 ---
-Q
+## Q
 queue 列队，传输
 ---
-R
+## R
 
 ---
-S
+## S
 setting 设置
 ---
-T
+## T
 trunk 主分支
 traffic交易
 ---
-U
+## U
 
 ---
-V
+## V
 
 ---
-W
+## W
 wiki 百科
 ---
-X
+## X
 
 ---
-Y
+## Y
 
 ---
-Z
-
-
-
-
-
-
+## Z
