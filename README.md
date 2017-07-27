@@ -11,37 +11,37 @@
 ---
 ## B
 
-branch 分支，部门  
-business 商务  
+branch  分支，部门  
+business  商务  
 
 ---
 ## C
 
-code 编码，密码  
-commit 提交，把...托付给  
-configuration 配置，布局，排列，构造  
+code  编码，密码  
+commit  提交，把...托付给  
+configuration  配置，布局，排列，构造  
 
 ---
 ## D
 
-dashboard 仪表盘  
-design 设计图案  
+dashboard  仪表盘  
+design  设计图案  
 
 ---
 ## E
 
-explore 探索，研究  
+explore  探索，研究  
 
 ---
 ## F
 
-features 面貌，特征  
-fork 分支  
+features  面貌，特征  
+fork  分支  
 
 ---
 ## G
 
-graphs 曲线图  
+graphs  曲线图  
 
 ---
 ## H
@@ -49,8 +49,8 @@ graphs 曲线图
 ---
 ## I
 
-invite 邀请  
-insights 领悟，洞悉  
+invite  邀请  
+insights  领悟，洞悉  
 
 ---
 ## J
@@ -61,12 +61,12 @@ insights 领悟，洞悉
 ---
 ## L
 
-license 许可证  
+license  许可证  
 
 ---
 ## M
 
-makeplace 交易市场，集市  
+makeplace  交易市场，集市  
 
 ---
 ## N
@@ -74,20 +74,21 @@ makeplace 交易市场，集市
 ---
 ## O
 
-origin 起源，源点，根源  
-overview 概述  
+origin  起源，源点，根源  
+overview  概述  
 
 ---
 ## P
 
-pricing 定价  
-pruchase 购买  
-project 项目  
+pricing  定价  
+pruchase  购买  
+project  项目  
+profile  仓库
 
 ---
 ## Q
 
-queue 列队，传输  
+queue  列队，传输  
 
 ---
 ## R
@@ -95,13 +96,13 @@ queue 列队，传输
 ---
 ## S
 
-setting 设置  
+setting  设置  
 
 ---
 ## T
 
-trunk 主分支  
-traffic交易  
+trunk  主分支  
+traffic  交易  
 
 ---
 ## U
@@ -112,7 +113,7 @@ traffic交易
 ---
 ## W
 
-wiki 百科  
+wiki  百科  
 
 ---
 ## X
