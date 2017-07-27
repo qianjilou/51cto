@@ -25,24 +25,32 @@ business  商务
 ---
 ## D
 
-dashboard  仪表盘  
-design  设计图案  
+|单词|翻译|
+|----|-----|
+|dashboard | 仪表盘 | 
+|design | 设计图案 | 
 
 ---
 ## E
 
-explore  探索，研究  
+|单词|翻译|
+|----|-----|
+|explore | 探索，研究 | 
 
 ---
 ## F
 
-features  面貌，特征  
-fork  分支  
+|单词|翻译|
+|----|-----|
+|features | 面貌，特征  |
+|fork | 分支  |
 
 ---
 ## G
 
-graphs  曲线图  
+|单词|翻译|
+|----|-----|
+|graphs | 曲线图  |
 
 ---
 ## H
@@ -50,8 +58,10 @@ graphs  曲线图
 ---
 ## I
 
-invite  邀请  
-insights  领悟，洞悉  
+|单词|翻译|
+|----|-----|
+|invite | 邀请 | 
+|insights | 领悟，洞悉 | 
 
 ---
 ## J
@@ -62,12 +72,16 @@ insights  领悟，洞悉
 ---
 ## L
 
-license  许可证  
+|单词|翻译|
+|----|-----|
+|license | 许可证  |
 
 ---
 ## M
 
-makeplace  交易市场，集市  
+|单词|翻译|
+|----|-----|
+|makeplace | 交易市场，集市  |
 
 ---
 ## N
@@ -75,12 +89,16 @@ makeplace  交易市场，集市
 ---
 ## O
 
-origin  起源，源点，根源  
-overview  概述  
+|单词|翻译|
+|----|-----|
+|origin | 起源，源点，根源  |
+|overview | 概述  |
 
 ---
 ## P
 
+|单词|翻译|
+|----|-----|
 pricing  定价  
 pruchase  购买  
 project  项目  
