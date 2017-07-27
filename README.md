@@ -1,10 +1,5 @@
 # github常用英文对照表
 
-### Author:千机楼
-### E-mail:qianjilou@qq.com
-
-
----
 ## A
 
 
@@ -139,5 +134,8 @@
 ## Z
 
 
+
+### Author:千机楼
+### E-mail:qianjilou@qq.com
 
 出处：千机楼  https://github.com/qianjilou/gitmanual.git
