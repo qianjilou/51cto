@@ -97,9 +97,9 @@ queue  列队，传输
 ## S
 
 setting  设置  
-sign in 登录 
-sign up 注册  
-sign out 退出
+sign in 登录;签到；签收  
+sign up 注册;签约;登记;  
+sign out 退出  
 ---
 ## T
 
