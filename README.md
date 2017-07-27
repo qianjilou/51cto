@@ -3,10 +3,9 @@
 ### Author:千机楼
 ### E-mail:qianjilou@qq.com
 
+
 ---
 ## A
-
-
 
 ---
 ## B
@@ -17,9 +16,9 @@ business  商务
 ---
 ## C
 
-code  编码，密码  
-commit  提交，把...托付给  
-configuration  配置，布局，排列，构造  
+|语法|效果|语法|效果|
+|code|编码，密码|commit|提交，把...托付给 |
+|configuration|配置，布局，排列，构造|----|-----|
 
 ---
 ## D
