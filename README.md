@@ -15,17 +15,15 @@ business  商务
 
 ## C
 
-|CCC|CCC|
-|----|-----|
 |code|编码，密码|
+|----|-----|
 |commit|提交，把...托付给 |
 |configuration|配置，布局，排列，构造|
 
 ## D
 
-|D系列|翻译|
+|dashboard | 仪表盘 |
 |----|-----|
-|dashboard | 仪表盘 | 
 |design | 设计图案 | 
 
 ## E
