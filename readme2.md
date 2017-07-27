@@ -1,5 +1,8 @@
 # github常用英文对照表
 
+### Author:千机楼
+### E-mail:qianjilou@qq.com
+
 ---
 A
 
@@ -26,3 +29,8 @@ makeplace 交易市场，集市
 
 pricing 定价
 
+fork 分支
+traffic交易
+pruchase 购买
+invite 邀请
+queue 列队，传输
