@@ -17,6 +17,7 @@
 |code|编码，密码|
 |commit|提交，把...托付给 |
 |configuration|配置，布局，排列，构造|
+|collaboration|合作，协作;|
 
 ## D
 
