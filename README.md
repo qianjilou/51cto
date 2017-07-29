@@ -58,6 +58,7 @@
 |----|-----|
 |invite | 邀请 | 
 |insights | 领悟，洞悉 | 
+|integration|整合; 一体化; 结合;|
 
 ## J
 
