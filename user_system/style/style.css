@@ -1,0 +1,19 @@
+*{margin:0;padding:0;}
+body{margin:0;padding: 0}
+
+.layout{
+	margin:0 auto;width: 980px;
+}
+.w100{
+	width: 1000px;
+}
+
+.size28{font-size:28px;}
+
+.tb{border:1px solid #ccc;border-collapse: collapse;}
+
+.tb th,.tb td{
+	border:1px solid #ccc;padding: 5px;
+}
+
+.btn{padding:5px;}
