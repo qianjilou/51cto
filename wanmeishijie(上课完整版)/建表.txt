@@ -1,0 +1,38 @@
+一，分类表 ( category )
+cat_id     自增ID
+cat_name   分类名
+cat_desc   分类描述
+feature_name   特征标题
+pid        父ID
+type       类型( 0:无 1:最新游戏 2:热门游戏 )
+is_show    是否显示(1：显示  0：隐藏)
+sort       排序
+url        链接
+img_big    原图
+img_center 中图
+img_small  小图
+
+
+二，文章表
+article_id  自增ID
+title       标题
+content     内容
+cat_id      分类ID
+author      文章作者
+publish_time 发布时间
+is_show    是否显示(1：显示  0：隐藏)
+sort       排序
+img_big
+img_center
+img_small
+rec_to_index 是否推荐到首页 (1:是 0:否)
+
+
+三，轮播表 (slideshow)
+ads_id   自增ID
+img_big 
+img_center
+img_small
+url
+is_show
+sort

@@ -1,0 +1,172 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-size:100%;
+	color:#535353;
+	background: #fff; 
+	line-height:16px;
+	font-family:"Verdana","Microsoft YaHei",微软雅黑,宋体;
+}
+ul,li {
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+.layout {
+	width:980px;
+	margin:0px auto;
+}
+.size28 {
+	font-size: 28px;
+}
+.size24 {
+	font-size: 24px;
+}
+.w65 {
+	width:65%;
+}
+.w100 {
+	width:100%;
+}
+.tb {
+	border:none;
+	border-collapse: collapse;
+	margin:0px auto;
+}
+th,td {
+	padding:10px 20px;
+	border:1px solid #ccc;
+}
+.btn {
+	padding:5px 10px;
+	border:none;
+	background: #2d78f4;
+	color:#fff;
+}
+.success {
+	color:#0f0;
+}
+.error {
+	color:#f00;
+}
+#tips,#search {
+	margin:8px 0px;
+	width:637px;	
+}
+a {
+	text-decoration: none;
+	color:#333;
+}
+a:hover {
+	color:#DE0000;
+}
+.page {
+	margin-top:15px;
+}
+.page a {
+	border:1px solid #ccc;
+	padding:5px 10px;
+	margin-right:10px;
+}
+.page a:hover {
+	background: #2d78f4;
+	color:#fff;
+}
+.page .active {
+	background: #2d78f4;
+	color:#fff; 
+}
+.searchbtn {	
+	border:none;
+	background: #2d78f4;
+	color:#fff;
+	width:80px !important;
+}
+
+/************************************/
+
+.level1 {
+	padding:20px 20px 10px 40px;
+}
+.level2 {
+	padding:20px 20px 10px 40px;
+	border-bottom:1px solid #ccc;
+}
+.level3 {
+	padding:20px 20px 10px 40px;
+	border-bottom:1px dotted #ccc;
+}
+.oper {
+	float:right;
+}
+.cat_title {
+	text-align: center;
+	padding:10px;
+	border-bottom:1px solid #ccc;	
+	font-weight: bold;
+}
+
+/**************************************/
+
+img {
+	border:none;
+}
+
+#menu {
+	height: 84px;
+  	background: #fff;
+  	border-top: 1px solid #cacaca;
+  	border-bottom: 1px solid #cacaca;
+}
+
+.logo {
+  display: block;
+  width: 132px;
+  float: left;
+  height: 60px;
+  margin-top: 10px;
+  background: url(../images/logo.png) no-repeat left center;
+  text-indent: -999em;  
+}
+.log_line {
+	border-left: 1px solid #d1d1d1;
+	display: block;
+	float: left;
+	height: 60px;
+	margin-top: 10px;
+}
+
+#menu h4 {
+  height: 42px;
+  width: 166px;
+  float: left;  
+  margin-top: 10px;
+  padding: 9px 10px;
+}
+#menu span.tit {
+  width: 166px;
+  height: 42px;
+}
+#menu span.icon {
+  background: url(../images/icon.png) no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+}
+#menu ul{
+	float:right;
+	margin-top:36px;
+}
+#menu ul li a.on {
+	color: #d60404;
+  	border-bottom: 4px solid #cf0b16;
+}
+#menu ul li a {
+  display: inline-block;
+  width: 140px;
+  height: 46px;
+  line-height: 44px;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  color: #333;  
+}

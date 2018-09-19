@@ -1,0 +1,70 @@
+.layout {
+	width:980px;
+	margin:0px auto;
+}
+.size28 {
+	font-size: 28px;
+}
+.size24 {
+	font-size: 24px;
+}
+.w65 {
+	width:65%;
+}
+.w100 {
+	width:100%;
+}
+.tb {
+	border:none;
+	border-collapse: collapse;
+	margin:0px auto;
+}
+th,td {
+	padding:5px 10px;
+	border:1px solid #ccc;
+}
+.btn {
+	padding:5px 10px;
+	border:none;
+	background: #2d78f4;
+	color:#fff;
+}
+.success {
+	color:#0f0;
+}
+.error {
+	color:#f00;
+}
+#tips,#search {
+	margin:8px 0px;
+	width:637px;	
+}
+a {
+	text-decoration: none;
+	color:#333;
+}
+a:hover {
+	color:#DE0000;
+}
+.page {
+	margin-top:15px;
+}
+.page a {
+	border:1px solid #ccc;
+	padding:5px 10px;
+	margin-right:10px;
+}
+.page a:hover {
+	background: #2d78f4;
+	color:#fff;
+}
+.page .active {
+	background: #2d78f4;
+	color:#fff; 
+}
+.searchbtn {	
+	border:none;
+	background: #2d78f4;
+	color:#fff;
+	width:80px !important;
+}

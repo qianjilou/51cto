@@ -1,0 +1,52 @@
+.news_top{ width:980px; height:70px; margin:0 auto; font-size:36px; font-weight:bold; padding-top:40px; color:#000;}
+.news_title{ width:970px; height:25px; background-color:#333; font-size:13px; color:#CCC;margin:0 auto; padding:15px 0 0 10px;}
+.news_content{ width:980px; height:auto; padding:20px 0; margin:0 auto; }
+.news_content_left{ width:720px; height:auto; float:left;}
+.news_content_left_title ul{ width:720px; height:40px; float:left; border-bottom:1px solid #C00;}
+.news_content_left_title ul li{ width:120px; height:39px; float:left; background-color:#FFF; border:1px solid #CCC; border-bottom:none;text-align:center; line-height:40px; font-size:12px; color:#000; }
+.news_content_left_bg{ width:718px; height:auto; background-color:#FFF; border:1px solid #CCC;border-top: none;float:left;}
+.news_content_left_news dl{ width:698px; height:auto; float:left; padding:20px 0px 20px 20px;}
+.news_content_left_news dl dd{ width:170px; height:110px;float:left; padding-right:15px }
+.news_content_left_news dl dt{ width:490px; height:auto;float:left; font-size:14px; line-height:24px; color:#999;}
+.news_font01{ font-size:16px; color:#000; font-weight:bold;}
+.news_font01 a {text-decoration: none; color:#000;}
+.news_font01 a:hover {color:#f00;}
+.news_font02{ float:right; font-size:12px;}
+.news_font03{ text-align:center; font-size:12px; color: #999; line-height:40px}
+.news_details_title{width:680px; height:auto; font-size:22px; border-bottom:1px solid #CCC; margin:30px 0 10px 15px; text-align:center; color:#000}
+.news_details_content{width:680px; height:auto; font-size:13px; margin:10px 0 10px 15px; line-height:24px;text-indent: 2em;}
+
+.news_content_right{ width:220px; height:400px; float: right; }
+
+.product_left dl{ width:698px; height:auto; float:left; padding:20px 0px 20px 20px;}
+.product_left dl dd{ width:104px; height:104px;float:left; border:1px solid #CCC; }
+.product_left dl dt{ width:400px; height:auto;float:left; font-size:12px; line-height:24px; color:#999; padding-left:15px;}
+.product_font01{ padding-left:10px; color: #C33; font-size:12px;}
+.product_botton{ width:140px; height:40px; float:right; padding:30px 10px 0 0;}
+
+
+.Company_left{ width:220px; height:auto; float:left; padding:10px 0;}
+.Company_left ul{ width:220px; height:auto;border-top:2px solid #999;}
+.Company_left ul li{width:220px; height:auto; border-bottom:1px solid #DFDEDE; line-height:70px; text-align:center; font-size:14px;}
+
+.Company_right{ width:720px; height:auto; float: right; padding:10px 0;}
+.Company_right_top ul{ width:720px; height:60px;}
+.Company_right_top ul li{ width:179px; height:40px; text-align:center; border-right:1px solid #FFF; background-color: #C00; color:#FFF; font-size:18px; float:left; padding-top:20px;}
+.Company_right_content{width:717px; height:auto; background-color:#FFF; border:1px solid #CCC;border-top: none;}
+.Company_right_content_title{ width:600px; height:30px; font-size:20px; padding:15px 0 10px 20px; color:#000;}
+.Company_right_content_font{ width:690px; font-size:13px; color:#666; line-height:24px; padding:10px 0 10px 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
