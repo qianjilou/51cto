@@ -7,13 +7,16 @@ body{margin:0;padding: 0}
 .w100{
 	width: 1000px;
 }
+.w60{width: 60%;}
 
 .size28{font-size:28px;}
 
-.tb{border:1px solid #ccc;border-collapse: collapse;}
+.tb{border:1px solid #ccc;border-collapse: collapse;text-align: center;}
 
 .tb th,.tb td{
 	border:1px solid #ccc;padding: 5px;
 }
 
 .btn{padding:5px;}
+.success{color:green;font-weight: bold;}
+.error{color:red;font-weight: bold;}

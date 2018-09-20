@@ -2,13 +2,20 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>用户注册</title>
-	<link rel="stylesheet" href="./style/style.css">
-	<script type="text/javascript" src="./js/jquery182.js"></script>
-	<script type="text/javascript" src="./js/index.js"></script>
+	<title>用户编辑</title>
+	<link rel="stylesheet" href="../style/style.css">
+	<script type="text/javascript" src="../js/jquery182.js"></script>
+	<script type="text/javascript" src="../js/index.js"></script>
 </head>
 <body>
 	<?php require("init.php");?>
+	<?php 
+		if (isset($_REQUEST['id'])) {
+			$user = new UserModel($db);
+			$user_info = $user->get_user_byid($_REQUEST['id']);
+			print_r($user_info);
+		}
+	?>
 
 	<div class="layout">
 	<div id="tips"></div>
@@ -35,30 +42,7 @@
 
 		</form>
 		
-		<?php
-		if (isset( $_REQUEST['reg'])) {
-			$user_name = trim($_REQUEST['user_name']);
-			$user_password = trim($_REQUEST['user_password']);
-			$user = new UserModel( $db );
-			if ($user->add_user($user_name,$user_password)) {
-				echo "注册成功！";
-			}else{
-				echo "注册失败！";
-			}
-		}
-	?>
-	<?php
-		if (isset( $_REQUEST['login'])) {
-			$user_name = trim($_REQUEST['user_name']);
-			$user_password = trim($_REQUEST['user_password']);
-			$user = new UserModel( $db );
-			if ($user->user_login($user_name,$user_password)) {
-				echo "登录成功！";
-			}else{
-				echo "登录失败！";
-			}
-		}
-	?>
+		
 	</div>
 </body>
 </html>
