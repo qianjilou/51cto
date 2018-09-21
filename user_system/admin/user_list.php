@@ -9,6 +9,15 @@
 </head>
 <body>
 <?php require ("init.php");?>
+
+	<?php
+		if (isset($_REQUEST['action']) && $_REQUEST['action'] = 'del') {
+			$user = new UserModel( $db );
+			$user->del_user_byid($_REQUEST['id']);
+		}
+
+	?>
+
 	<div class="layout">
 		<table class="tb w100">
 			<tr>

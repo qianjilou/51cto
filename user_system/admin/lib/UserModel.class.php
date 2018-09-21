@@ -52,8 +52,16 @@ date_default_timezone_set('PRC'); //设置中国时区
 		}
 
 		public function get_user_byid($user_id){
-			$sql = "SELETC * FROM {$this->tb_name} WHERE user_id = $user_id";
+			$sql = "SELECT * FROM {$this->tb_name} WHERE user_id = $user_id";
 			return $this->db->get_row($sql);
+		}
+
+		public function update_user_byid($user_id, $data){
+			return $this->db->update($this->tb_name, $data, "WHERE user_id = $user_id");
+		}
+
+		public function del_user_byid($user_id){
+			return $this->db->query("DELETE FROM {$this->tb_name} WHERE user_id = $user_id");
 		}
 	}
 

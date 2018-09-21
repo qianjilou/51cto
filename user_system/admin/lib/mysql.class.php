@@ -11,7 +11,7 @@ date_default_timezone_set('PRC'); //设置中国时区
 		private $charset = 'utf8';
 		public $link;
 
-		public function __construct($dbname,$host='localhost',$dbuser='root',$dbpassword='123456'){
+		public function __construct($dbname,$host='localhost',$dbuser='root',$dbpassword='12345678'){
 
 			$this->host = $host;
 			$this->dbuser = $dbuser;
@@ -30,12 +30,11 @@ date_default_timezone_set('PRC'); //设置中国时区
 		}
 
 		public function connect(){
-			$this->link = mysqli_connect($this->host,$this->dbuser,$this->dbpassword,$this->dbname);
-			// $link = mysqli_connect($this->host,$this->dbuser,$this->dbpassword,$this->dbname);
+			$this->link = mysql_connect($this->host,$this->dbuser,$this->dbpassword);
 		}
 
 		public function select_db(){
-			mysqli_select_db($this->link,$this->dbname);
+			mysql_select_db($this->dbname);
 		}
 
 		public function set_db_charset(){
@@ -43,7 +42,7 @@ date_default_timezone_set('PRC'); //设置中国时区
 		}
 
 		public function query($sql){
-			return mysqli_query($this->link,$sql);
+			return mysql_query($sql);
 		}
 
 		//取出所有数据
@@ -105,7 +104,7 @@ date_default_timezone_set('PRC'); //设置中国时区
 
 
 
-	$mysql = new Mysql("user_system");
+	// $mysql = new Mysql("user_system");
 	// $list = $mysql->get_all("SELECT * FROM dede_flink WHERE 1 = 1");
 	// print_r($list);
 	// $row = $mysql->get_row("SELECT * FROM dede_flink WHERE id = 2");
