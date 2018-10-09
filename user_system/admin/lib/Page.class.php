@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 <!doctype html>
 <html lang="en">
 <head>
@@ -13,6 +15,7 @@
 </body>
 </html>
 
+>>>>>>> a99e61acb65809097032890f6802f1afb471f5b6
 <?php
 	class Page{
 		private $total;//总页数
@@ -76,6 +79,18 @@
 
 		//显示 生成分页页码
 		public function build_page_list(){
+<<<<<<< HEAD
+			// echo "<a>总共有{$this->total}记录{$this->page_nums}页数</a>";
+			echo "<ul class = 'page'>";
+			echo "<a>总共有".$this->total."记录".$this->page_nums."页数</a>";
+			echo $this->first_page();
+			echo $this->prev();
+			
+
+			$start = '';
+			$end = '';
+
+=======
 			echo "<a>总共有{$this->total}记录{$this->page_nums}页数</a>";
 			echo "<a>总共有".$this->total."记录".$this->page_nums."页数</a>";
 			echo $this->first_page();
@@ -83,17 +98,36 @@
 
 			$start = '';
 			$end = '';
+>>>>>>> a99e61acb65809097032890f6802f1afb471f5b6
 			if ($this->cur_page < $this->page_step - 1) {
 				$start = 1;
 				$end = $this->page_step;
 				if ($end > $this->page_nums) {
 					$end = $this->page_nums;
+<<<<<<< HEAD
+				}
+			}else{
+=======
 				}else{
+>>>>>>> a99e61acb65809097032890f6802f1afb471f5b6
 					$start = $this->cur_page - $this->page_offset;
 					$end = $this->cur_page + $this->page_step - $this->page_offset -1;
 					if ($end > $this->page_nums) {
 						$end = $this->page_nums;
 					}
+<<<<<<< HEAD
+			}
+
+			for ($ind = $start; $ind <= $end; $ind++) { 
+				if ($ind == $this->cur_page) {
+					$active = "class = 'active'";
+				}else{
+					$active = '';
+				}
+				echo "<li $active><a href='". $this->url ."p=".$ind."'>" . $ind . "</a></li>";
+			}
+
+=======
 				}
 			}
 
@@ -101,6 +135,7 @@
 			echo "<a href='". $this->url ."p=".$ind."'>" . $ind . "</a>";
 		}
 
+>>>>>>> a99e61acb65809097032890f6802f1afb471f5b6
 			// echo "<ul class = 'page'>";
 			// for ($ind = 1; $ind <= $this->page_nums; $ind++) { 
 			// 	echo "<li><a href='". $this->url ."p=". $ind ."'>" . $ind . "</a></li>";
@@ -109,6 +144,17 @@
 			// echo "</ul>";
 			echo $this->next();
 			echo $this->last_page();
+<<<<<<< HEAD
+			echo "</ul>";
+		}
+
+		public function first_page(){
+			return "<li><a href='". $this->url ."p=1'>" . "首页" . "</a></li>";
+		}
+		
+		public function last_page(){
+			return "<li><a href='". $this->url ."p=" . $this->page_nums . "'>" . "尾页" . "</a></li>";
+=======
 		}
 
 		public function first_page(){
@@ -117,19 +163,37 @@
 		
 		public function last_page(){
 			return "<a href='". $this->url ."p=" . $this->page_nums . "'>" . "尾页" . "</a>";
+>>>>>>> a99e61acb65809097032890f6802f1afb471f5b6
 			// return "<a href='". $this->url ."p={$this->page_nums}'>" . "尾页" . "</a>";
 		}
 
 		public function prev(){
 			if ($this->cur_page > 1) {
+<<<<<<< HEAD
+				return "<li><a href='". $this->url ."p=".($this->cur_page - 1)."'>" . "上一页" . "</a></li>";
+			}else{
+				return "<li><a>上一页</a></li>";
+=======
 				return "<a href='". $this->url ."p=".($this->cur_page - 1)."'>" . "上一页" . "</a>";
 			}else{
 				return "<a>上一页</a>";
+>>>>>>> a99e61acb65809097032890f6802f1afb471f5b6
 			}
 		}
 
 		public function next(){
 			if ($this->cur_page < $this->page_nums) {
+<<<<<<< HEAD
+				return "<li><a href='". $this->url ."p=".($this->cur_page + 1)."'>" . "下一页" . "</a></li>";
+			}else{
+				return "<li><a>下一页</a></li>";
+			}
+		}
+
+	}
+
+	// $page = new Page(100,6);
+=======
 				return "<a href='". $this->url ."p=".($this->cur_page + 1)."'>" . "下一页" . "</a>";
 			}else{
 				return "<a>下一页</a>";
@@ -138,4 +202,5 @@
 	}
 
 	$page = new Page(100,6);
+>>>>>>> a99e61acb65809097032890f6802f1afb471f5b6
 	// print_r($page);

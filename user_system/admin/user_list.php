@@ -6,6 +6,10 @@
 	<link rel="stylesheet" href="../style/style.css">
 	<script type="text/javascript" src="../js/jquery182.js"></script>
 	<script type="text/javascript" src="../js/index.js"></script>
+<<<<<<< HEAD
+	<script type="text/javascript" src="../js/adddate.js"></script>
+=======
+>>>>>>> a99e61acb65809097032890f6802f1afb471f5b6
 </head>
 <body>
 <?php require ("init.php");?>
@@ -17,6 +21,17 @@
 		}
 
 	?>
+<<<<<<< HEAD
+	<div class="layout">
+		<form action="user_list.php" method="post" >
+			<input type="text" name="search_name" class="size28">
+			<input type="text" name="search_time" class="size28" onclick="SelectDate(this,'yyyy-MM-dd')">
+			<input type="submit" name="submit" value="搜索" class="btn">
+		</form>
+
+	</div>
+=======
+>>>>>>> a99e61acb65809097032890f6802f1afb471f5b6
 
 	<div class="layout">
 		<table class="tb w100">
@@ -31,7 +46,16 @@
 			</tr>
 			<?php 
 				$user = new UserModel($db);
+<<<<<<< HEAD
+				$p = !empty($_REQUEST['p']) ? intval( $_REQUEST['p'] ) : 1;
+				// $total = $user->count_users();
+				$page_size = 20;
+
+				$list = $user->get_user_list($p , $page_size);
+				$total = array_pop( $list );
+=======
 				$list = $user->get_user_list();
+>>>>>>> a99e61acb65809097032890f6802f1afb471f5b6
 				if (!empty($list)) {
 					foreach ($list as $u) {
 						?>
@@ -51,6 +75,15 @@
 				}
 			?>
 		</table>
+<<<<<<< HEAD
+
+		<?php
+			$page = new Page( $total ,$page_size );
+			$page->build_page_list();
+		?>
+
+=======
+>>>>>>> a99e61acb65809097032890f6802f1afb471f5b6
 	</div>
 </body>
 </html>

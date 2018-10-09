@@ -19,4 +19,13 @@ body{margin:0;padding: 0}
 
 .btn{padding:5px;}
 .success{color:green;font-weight: bold;}
+<<<<<<< HEAD
 .error{color:red;font-weight: bold;}
+
+.page{width: 1000px;height: 30px;}
+.page li{list-style:none;float: left;margin:0 4px;padding:4px;}
+.page li.active{background-color: green;}
+.page li a.active{background-color: green;}
+=======
+.error{color:red;font-weight: bold;}
+>>>>>>> a99e61acb65809097032890f6802f1afb471f5b6
